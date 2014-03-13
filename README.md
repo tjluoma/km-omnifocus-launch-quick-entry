@@ -32,8 +32,6 @@ Notice that I have told the macro to wait until Skitch is running, and until it 
 
 Since the “otherwise execute the following actions” area is _blank_, when I press <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>5</kbd> when Skitch _is_ running, Keyboard Maestro won’t do anything, which means that the keyboard shortcut gets passed on to Skitch, as usual.
 
-You can find that at [Skitch.kmmacros](kmmacros/Skitch.kmmacros).
-
 ### OmniFocus ###
 
 My keyboard shortcut for OmniFocus Quick Entry is <kbd>⌃</kbd> + <kbd>⌥</kbd>  + <kbd>⌘</kbd> + <kbd>O</kbd>, which might sound crazy, but as I explained on MPU, I have set my ***right*** <kbd>⌥</kbd>  key and <kbd>Caps Lock</kbd> to equal <kbd>⌃</kbd> + <kbd>⌥</kbd>  + <kbd>⌘</kbd>, so when I want to add something to OmniFocus, I press <kbd>Caps Lock</kbd> + <kbd>O</kbd> or <kbd>Option_R</kbd> + <kbd>O</kbd>.
@@ -51,3 +49,7 @@ Same idea as before: if OmniFocus is _not_ running, activate it, pause until it 
 If OmniFocus _is_ running, Keyboard Maestro does nothing, and the Quick Entry window will simply appear as usual.
 
 This is a handy way to avoid having a lot of apps launch at login, and only have them running when you need them.
+
+### Download and Install ###
+
+[Download the zip file from Github](https://github.com/tjluoma/km-omnifocus-launch-quick-entry/archive/master.zip) and inside you will find both .kmmacros files. Double-click on them to import them into Keyboard Maestro, and you’re ready to go!
