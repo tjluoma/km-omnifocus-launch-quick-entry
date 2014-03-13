@@ -7,9 +7,9 @@ On [Mac Power Users 181](http://www.macpowerusers.com/2014/03/09/mac-power-users
 
 *Even if you don’t use OmniFocus,* this idea can be re-used for just about any application that you run via keyboard trigger, such as [Skitch](http://evernote.com/skitch/) (or, my preference, [Skitch 1](http://evernote.com/download/get.php?file=SkitchMac_v1)).
 
-The idea is fairly simple: you have this keyboard shortcut in your head, such as <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>5</kbd> for Skitch, or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>O</kbd> for OmniFocus. Over time, you learn that whenever you want to do *{thing}* you press *{these keys}*. But there’s one problem: those keyboard shortcuts only work if the app is running. So what do you do? Keep all of those apps running all of the time, just in case you might want to use them? That’s an option, but it’s an option I’d rather avoid if I can.
+The idea is fairly simple: you have this keyboard shortcut in your head, such as <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>5</kbd> for Skitch, or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>O</kbd> for OmniFocus. Over time, you learn that whenever you want to do *{thing}* you press *{this key combination}*. But there’s one problem: those keyboard shortcuts only work if the app is running. So what do you do? Keep all of those apps running all of the time, just in case you might want to use them? That’s an option, but it’s an option I’d rather avoid if I can.
 
-Instead, I’d rather use Keyboard Maestro, which I already have running all of the time anyway (and it runs in the menu bar out of the way), and have *it* watch for when I press *{these keys}*. Inside Keyboard Maestro, I create a simple “if/else” that says:
+Instead, I’d rather use Keyboard Maestro, which I already have running all of the time anyway (and it runs in the menu bar out of the way), and have *it* watch for when I press *{this key combination}*. Inside Keyboard Maestro, I create a simple “if/else” that says:
 
 If _YourApp_ is not running:
 
